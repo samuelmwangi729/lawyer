@@ -6,8 +6,8 @@
     <div class="container-fluid px-md-5">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
         <div class="col-md-6 ftco-animate">
-            <h2 class="subheading">Product Liabilty &amp; Personal Injury</h2>
-          <h1 class="mb-4" style="color:#d6a725">The Greatest &amp; Strongest Lawyers You Can Trust</h1>
+            <h2 class="subheading">Find A Quick Solution To Your Legal Issues</h2>
+          <h1 class="mb-4" style="color:#d6a725">The Greatest &amp; Strongest Advocates You Can Trust</h1>
           <p><a href="#" class="btn-custom mr-md-4">Get Legal Advice <span class="ion-ios-arrow-forward"></span></a> <a href="#" class="btn-custom">Request A Quote <span class="ion-ios-arrow-forward"></span></a></p>
         </div>
       </div>
@@ -19,30 +19,28 @@
       <div class="row py-4 d-flex">
         <div class="col-md-3 services align-self-stretch ftco-animate">
           <div class="media-body">
-              <span class="num">01</span>
-            <h3 class="heading mb-3"><a href="#">Get Your Legal Advice</a></h3>
-            <p style="color:#d6a725">Far far away, behind the word mountains, far from the countries</p>
+            <h3 class="heading mb-3">OUR MISSION</h3>
+            <p style="color:#d6a725">To provide clear, concise personal counsel 
+              and legal services to our local and international clientele.</p>
           </div>
         </div>
         <div class="col-md-3 services align-self-stretch ftco-animate">
           <div class="media-body">
-              <span class="num">02</span>
-            <h3 class="heading mb-3"><a href="#">Work with Expert Lawyers</a></h3>
-            <p style="color:#d6a725">Far far away, behind the word mountains, far from the countries</p>
+            <h3 class="heading mb-3">OUR VISION</h3>
+            <p style="color:#d6a725">To be the preferred legal services provider to our local and international clientele.</p>
           </div>
         </div>
         <div class="col-md-3 services align-self-stretch ftco-animate">
           <div class="media-body">
-              <span class="num">03</span>
-            <h3 class="heading mb-3"><a href="#">Have Great Discounted Rates</a></h3>
-            <p style="color:#d6a725">Far far away, behind the word mountains, far from the countries</p>
+            <h3 class="heading mb-3">OUR CORE VALUES</h3>
+            <p style="color:#d6a725">Our success is invariably rooted in 
+              foundational principles upon which we base practice as a law firm and as individuals.</p>
           </div>
         </div>
         <div class="col-md-3 services align-self-stretch ftco-animate">
           <div class="media-body">
-              <span class="num">04</span>
-            <h3 class="heading mb-3"><a href="#">Review Your Case Documents</a></h3>
-            <p style="color:#d6a725">Far far away, behind the word mountains, far from the countries</p>
+            <h3 class="heading mb-3">OUR SERVICE APPROACH</h3>
+            <p style="color:#d6a725">Our client-facing approach seeks to understand our clients unique needs in order provide tailored legal solutions.</p>
           </div>
         </div>
       </div>
@@ -60,14 +58,17 @@
               <div class="col-md-6 px-5 py-5">
                   <div class="row justify-content-start pt-3 pb-3">
                 <div class="col-md-12 heading-section ftco-animate">
-                    <span class="subheading">Welcome to Judge</span>
+                    <span class="subheading">Welcome to Sigomac Advocates</span>
                   <h2 class="mb-4">We Always Fight For Your Justice to Win</h2>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                  <p> Our clients have always leveraged our commitment to providing high quality services, accountability, honesty, 
+                    trustworthiness and responsiveness to find a quick solution to their legal issues.</p>
+                  <p>Our services are founded on both professional and business ethics. In this respect, when handling our 
+                    clients’ briefs, we adhere to professional ethics our profession and implement appropriate business practices and policies, 
+                    especially in situations 
+                    where we and or our clients are confronted with controversial issues.</p>
                   <div class="years d-flex">
-                      <h4 class="number mr-2" data-number="40">0</h4>
-                      <h4>Years of Experienced</h4>
+                      <h4 class="number mr-2" data-number="10">0</h4>
+                      <h4>Years of Experienced Legal Consultancy</h4>
                   </div>
                 </div>
               </div>
@@ -80,7 +81,6 @@
       <div class="container">
           <div class="row no-gutters justify-content-center mb-5">
         <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Practice Areas</span>
           <h2 class="mb-4">Practice Areas</h2>
         </div>
       </div>
@@ -90,8 +90,10 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-family"></span>
                   </div>
-                  <h3><a href="#">Family Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Divorce and Family</a></h3>
+                  <p>We work with our clients in ways that meet their individual needs.You
+                     contact our family lawyers with respect 
+                    to any query on divorce and family matters using our official contact.</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -99,8 +101,9 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-auction"></span>
                   </div>
-                  <h3><a href="#">Business Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Corporate and Commercial  Law</a></h3>
+                  <p>We have lawyers who pride themselves in commercial awareness, enabling them to understand more
+                     the legal requirements of a corporation..</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -108,7 +111,7 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-shield"></span>
                   </div>
-                  <h3><a href="#">Insurance Law</a></h3>
+                  <h3><a href="#">Wills and Trusts</a></h3>
                   <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
           </div>
@@ -638,9 +641,16 @@
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><span class="icon icon-map-marker"></span>
+                    <span class="text">
+                      Repen Complex
+                      3rd Floor, Suite B-309
+                      Katani Road, Off Mombasa Road
+                      P. O. Box 66950-00200, City Square
+                      Nairobi, Kenya
+                    </span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+254733 84 48 38/+254722 47 47 39</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">www.sigomac.com</span></a></li>
                 </ul>
               </div>
           </div>
