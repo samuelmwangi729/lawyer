@@ -8014,7 +8014,7 @@ a {
   color: #83b582; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #83b582;
+    color:#d4a823 !important;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -9096,7 +9096,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #000000; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #83b582; }
+          color: #b58282; }
   .blog-entry .meta > div {
     display: inline-block;
     margin-right: 5px;
@@ -9183,7 +9183,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #000000; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #83b582; }
+        color: #ff0000 !important; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
