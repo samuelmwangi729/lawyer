@@ -77,7 +77,7 @@
       </div>
   </section>
 
-  <section class="ftco-section">
+  <section class="ftco-section" id="legal">
       <div class="container">
           <div class="row no-gutters justify-content-center mb-5">
         <div class="col-md-7 text-center heading-section ftco-animate">
@@ -97,13 +97,23 @@
               </div>
           </div>
           <div class="col-md-3 text-center">
+            <div class="practice-area border-b no-border-l ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <span class="flaticon-money"></span>
+                </div>
+                <h3><a href="#">Credit Instruments and Debt Collection</a></h3>
+                <p>we partner with creditors, whereby we help them draft effective
+                   credit instruments that help them secure their interest in credit transactions.</p>
+            </div>
+        </div>
+          <div class="col-md-3 text-center">
               <div class="practice-area border-b ftco-animate">
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-auction"></span>
                   </div>
                   <h3><a href="#">Corporate and Commercial  Law</a></h3>
                   <p>We have lawyers who pride themselves in commercial awareness, enabling them to understand more
-                     the legal requirements of a corporation..</p>
+                     the legal requirements of a corporation.</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -111,8 +121,9 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-shield"></span>
                   </div>
-                  <h3><a href="#">Wills and Trusts</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Litigation and Dispute Resolution</a></h3>
+                  <p>We draw Our diverse experience and the firm’s multidisciplinary strategies to 
+                    represent and defend clients before courts, tribunals and ADR fora.</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -120,8 +131,11 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-handcuffs"></span>
                   </div>
-                  <h3><a href="#">Criminal Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Criminal Defence</a></h3>
+                  <p> 
+                    We ensure that every pathway of preparation and analysis
+                     are explored to ensure that our 
+                    clients’ rights are protected as they are taken through the criminal justice system.</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -129,17 +143,36 @@
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-house"></span>
                   </div>
-                  <h3><a href="#">Property Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Succession</a></h3>
+                  <p> Our lawyers will advise and assist you with regard to all succession concerns.
+                     We assist our clients to apply for grant letters of administration.</p>
               </div>
           </div>
+          <div class="col-md-3 text-center">
+            <div class="practice-area no-border-l ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <span class="flaticon-handshake"></span>
+                </div>
+                <h3><a href="#">Wills and Trusts</a></h3>
+                <p> we help our clients through drafting of their wills,
+                   taking into account their intended outcomes and interests.
+                   We also advise our clients on how to create trusts</p>
+            </div>
+        </div>
           <div class="col-md-3 text-center">
               <div class="practice-area ftco-animate">
                   <div class="icon d-flex justify-content-center align-items-center">
                       <span class="flaticon-employee"></span>
                   </div>
-                  <h3><a href="#">Employment Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Labour Laws</a></h3>
+                  <p>We specialise in labour laws. Our services include: 
+                    <ul>
+                      <li style="font-size:12px">Discipline and termination.</li>
+                      <li style="font-size:12px">Employment Agreement.</li>
+                      <li style="font-size:12px">Labour laws compliance audit.</li>
+                      <li style="font-size:12px">general advisories on labour laws.</li>
+                    </ul>
+                  </p>
               </div>
           </div>
           <div class="col-md-3 text-center">
@@ -160,6 +193,58 @@
                   <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               </div>
           </div>
+          <div class="col-md-3 text-center">
+            <div class="practice-area ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="flaticon-shield"></span>
+                </div>
+                <h3><a href="#">Competition Law</a></h3>
+                <p>We have lawyers who understand market fundamentalism and the specific 
+                  environment within which businesses operate.</p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="practice-area ftco-animate">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-auction"></span>
+              </div>
+              <h3><a href="#">Administrative and Public Law</a></h3>
+              <p>Our team of lawyers to 
+                provide the highest quality of advice in matters of public law.</p>
+          </div>
+      </div>
+          <div class="col-md-3 text-center">
+            <div class="practice-area ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <span class="flaticon-money"></span>
+                </div>
+                <h3><a href="#">Corporate Governance</a></h3>
+                <p>We provide  services as corporate compliance audit and advice, 
+                  legal risk management, training  and helping corporations and business entities 
+                  observe business ethics.</p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="practice-area ftco-animate">
+              <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="flaticon-money"></span>
+              </div>
+              <h3><a href="#">Anti-Corruption and Money Laundering</a></h3>
+              <p>Our firm of lawyers provides vigorous and fearless defence to both individuals
+                 and corporations facing accusations on claims of corruption and money laundering</p>
+          </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="practice-area ftco-animate">
+            <div class="icon d-flex justify-content-center align-items-center">
+                <span class="fa fa-book" style="padding-top:30px"></span>
+            </div>
+            <h3><a href="#">Constitutional Law</a></h3>
+            <p style="padding-top:20px">We provide our services to individuals who feel
+               that their constitutional rights and freedoms have been violated
+               and we do so without any  discriminatory parameter.</p>
+        </div>
+    </div>
       </div>
       </div>
   </section>
