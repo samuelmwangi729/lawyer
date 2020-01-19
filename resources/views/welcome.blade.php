@@ -51,7 +51,7 @@
       <div class="container">
           <div class="row d-flex">
               <div class="col-md-6 d-flex">
-                  <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(images/about.jpg);">
+                  <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(images/about.png);">
                      
                   </div>
               </div>
