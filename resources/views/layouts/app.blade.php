@@ -42,11 +42,11 @@
     
               <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                   <li class="nav-item"><a href="#legal" class="nav-link">Legal Services</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Our Staff</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                  <li class="nav-item"><a href="#About" class="nav-link">About Us</a></li>
+                  <li class="nav-item"><a href="#staff" class="nav-link">Our Staff</a></li>
+                  <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
                 </ul>
               </div>
             </div>

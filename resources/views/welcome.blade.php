@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');background-size:cover !important">
+<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');background-size:cover !important"  id="home">
     <div class="overlay"></div>
     <div class="container-fluid px-md-5">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -178,21 +178,52 @@
           <div class="col-md-3 text-center">
               <div class="practice-area ftco-animate">
                   <div class="icon d-flex justify-content-center align-items-center">
-                      <span class="flaticon-fire"></span>
+                      <span class="fas fa-baby"></span>
                   </div>
-                  <h3><a href="#">Fire Accident</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3><a href="#">Child Protection</a></h3>
+                  <p>We protect the rights of children through training on their parents, guardians,
+                     teachers and institutions on the best ways to protect children as required by the law.</p>
               </div>
           </div>
           <div class="col-md-3 text-center">
-              <div class="practice-area ftco-animate">
-                  <div class="icon d-flex justify-content-center align-items-center">
-                      <span class="flaticon-money"></span>
-                  </div>
-                  <h3><a href="#">Financial Law</a></h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="practice-area ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <span class="fa fa-check"></span>
+                </div>
+                <h3><a href="#">Conveyancing</a></h3>
+                <p>We help our clients to purchase new homes, register security 
+                  instruments and handle all matters pertaining to land and estates.</p>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="practice-area ftco-animate">
+              <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="fa fa-comments-dollar"></span>
               </div>
+              <h3><a href="#">Bankruptcy and Insolvency</a></h3>
+              <p>Our lawyers give  advise  on issues pertaining to 
+                bankruptcy and insolvency. We also offer litigation services 
+                whenever necessary</p>
           </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="practice-area ftco-animate">
+            <div class="icon d-flex justify-content-center align-items-center">
+                <span class="fab fa-searchengin"></span>
+            </div>
+            <h3><a href="#">Legal Research Consultancy and Advisory</a></h3>
+            <p>We tailor our research services according to the unique needs of every client.</p>
+        </div>
+    </div>
+    <div class="col-md-3 text-center">
+      <div class="practice-area ftco-animate">
+          <div class="icon d-flex justify-content-center align-items-center">
+              <span class="fas fa-chalkboard-teacher" style="padding-top:30px"></span>
+          </div>
+          <h3><a href="#">Training</a></h3>
+          <p>we are able to design our training sessions based on the unique needs of our clients.</p>
+      </div>
+  </div><br><hr>
           <div class="col-md-3 text-center">
             <div class="practice-area ftco-animate">
                 <div class="icon d-flex justify-content-center align-items-center">
@@ -245,16 +276,54 @@
                and we do so without any  discriminatory parameter.</p>
         </div>
     </div>
+    <div class="col-md-3 text-center">
+      <div class="practice-area ftco-animate">
+          <div class="icon d-flex justify-content-center align-items-center">
+              <span class="fas fa-football-ball" style="padding-top:30px"></span>
+          </div>
+          <h3><a href="#">Sports Law</a></h3>
+          <p style="padding-top:20px">we also provide our sports services to sports governing 
+            bodies, clubs and individual players. 
+            We also help clients with regard to defamation and privacy matters and employment contracts.</p>
+      </div>
+  </div>
+  <div class="col-md-3 text-center">
+    <div class="practice-area ftco-animate">
+        <div class="icon d-flex justify-content-center align-items-center">
+            <span class="fas fa-users" style="padding-top:30px"></span>
+        </div>
+        <h3><a href="#">Public Procurement</a></h3>
+        <p style="padding-top:20px">we offer specialised services regarding public procurements in 
+          Kenya to both public and private sector players engaging in public procurement.</p>
+    </div>
+</div>
       </div>
       </div>
   </section>
 
-  <section class="ftco-section ftco-no-pt">
+  <section class="ftco-section" id="About">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+    <div class="col-md-7 text-center heading-section ftco-animate">
+      <h2 class="mb-4" >About Us</h2>
+    </div>
+    <div class="well jumbotron">
+      Sigomac Advocates is a mid-sized, general practice law firm based in Nairobi,
+     Kenya, providing high quality legal consultancy services to diverse clientele, 
+     both locally and internationally. Our clientele is comprised of individuals, corporate organisations and local and 
+     international governmental and non-governmental organisations in various industries. Our clients have always leveraged our 
+     commitment to providing high quality services, 
+    accountability, honesty, trustworthiness and responsiveness to find a quick solution to their legal issues.
+    </div>
+  </div>
+    </div>
+  </section>
+  <section class="ftco-section" id="staff">
       <div class="container">
           <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Our Attorney</span>
-          <h2 class="mb-4">Our Legal Attorneys</h2>
+            <span class="subheading">Our Lawyers</span>
+          <h2 class="mb-4">Our Legal Officers</h2>
         </div>
       </div>
       <div class="row no-gutters">
@@ -359,7 +428,7 @@
   </section>
       
 
-      <section class="ftco-consultation ftco-section img" style="background-image: url(images/bg_2.jpg);">
+      <section class="ftco-consultation ftco-section img" style="background-image: url(images/bg_2.jpg);" id="contact">
           <div class="overlay"></div>
       <div class="container">
           <div class="row d-md-flex justify-content-end">
@@ -388,274 +457,6 @@
       </div>
   </section>
 
-  <section class="ftco-section">
-      <div class="container">
-          <div class="row justify-content-center mb-5">
-        <div class="col-md-10 text-center heading-section ftco-animate">
-            <span class="subheading">Explore Case Studies</span>
-          <h2 class="mb-4">1000+ Completed Cases Successfully</h2>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-1.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-2.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-3.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-4.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-5.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-              <div class="case img d-flex align-items-center justify-content-center" style="background-image: url(images/case-6.jpg);">
-                  <div class="text text-center">
-                      <h3><a href="#">Legal Seperation</a></h3>
-                      <span>Corporate</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-  </section>
-
-  <section class="ftco-section testimony-section ftco-no-pt">
-    <div class="container">
-      <div class="row justify-content-center mb-5">
-        <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Testimonial</span>
-          <h2 class="mb-4">Happy Clients</h2>
-        </div>
-      </div>
-      <div class="row ftco-animate">
-        <div class="col-md-12">
-          <div class="carousel-testimony owl-carousel ftco-owl">
-            <div class="item">
-              <div class="testimony-wrap py-4">
-                <div class="text">
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <div class="d-flex align-items-center">
-                      <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                      <div class="pl-3">
-                          <p class="name">Roger Scott</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap py-4">
-                <div class="text">
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <div class="d-flex align-items-center">
-                      <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                      <div class="pl-3">
-                          <p class="name">Roger Scott</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap py-4">
-                <div class="text">
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <div class="d-flex align-items-center">
-                      <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                      <div class="pl-3">
-                          <p class="name">Roger Scott</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap py-4">
-                <div class="text">
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <div class="d-flex align-items-center">
-                      <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                      <div class="pl-3">
-                          <p class="name">Roger Scott</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap py-4">
-                <div class="text">
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <div class="d-flex align-items-center">
-                      <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                      <div class="pl-3">
-                          <p class="name">Roger Scott</p>
-                          <span class="position">Marketing Manager</span>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-section bg-light">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Our Blog</span>
-          <h2>Recent Blog</h2>
-        </div>
-      </div>
-      <div class="row d-flex">
-        <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-            </a>
-            <div class="text p-4 float-right d-block">
-                <div class="topper d-flex align-items-center">
-                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                        <span class="day">15</span>
-                    </div>
-                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                        <span class="yr">2019</span>
-                        <span class="mos">August</span>
-                    </div>
-                </div>
-              <h3 class="heading mt-2"><a href="#">All you want to know about industrial laws</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-            </a>
-            <div class="text p-4 float-right d-block">
-                <div class="topper d-flex align-items-center">
-                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                        <span class="day">12</span>
-                    </div>
-                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                        <span class="yr">2019</span>
-                        <span class="mos">August</span>
-                    </div>
-                </div>
-              <h3 class="heading mt-2"><a href="#">All you want to know about industrial laws</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-            </a>
-            <div class="text p-4 float-right d-block">
-                <div class="topper d-flex align-items-center">
-                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                        <span class="day">10</span>
-                    </div>
-                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                        <span class="yr">2019</span>
-                        <span class="mos">August</span>
-                    </div>
-                </div>
-              <h3 class="heading mt-2"><a href="#">All you want to know about industrial laws</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-      
-
-  <section class="ftco-gallery">
-      <div class="container-wrap">
-          <div class="row no-gutters">
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_1.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_2.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_3.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_4.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_5.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-                  <div class="col-md-2 ftco-animate">
-                      <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/image_6.jpg);">
-                          <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                          <span class="icon-instagram"></span>
-                      </div>
-                      </a>
-                  </div>
-      </div>
-      </div>
-  </section>
-
   <section class="ftco-section ftco-no-pt ftco-no-pb bg-primary">
     <div class="container py-4">
       <div class="row d-flex justify-content-center">
@@ -679,8 +480,9 @@
       <div class="row mb-5">
         <div class="col-md">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">About Judge</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h2 class="ftco-heading-2">About Sigomac</h2>
+            <p>we strive to come up with innovative ways to handle clients’ legal
+               matters in ways that minimise costs and lessen resolution time.</p>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
               <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
               <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -690,34 +492,25 @@
         </div>
         <div class="col-md">
           <div class="ftco-footer-widget mb-4 ml-md-5">
-            <h2 class="ftco-heading-2">Practice Areas</h2>
+            <h2 class="ftco-heading-2">Top 5 Practice Areas</h2>
             <ul class="list-unstyled">
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Family Law</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Business Law</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Insurance Law</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Criminal Law</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Drug Offenses</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Fire Accident</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Employment Law</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Property Law</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Divorce and Family</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Wills and Trusts</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Succession</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Corporate Governance</a></li>
+              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Competition Law</a></li>
 
             </ul>
           </div>
         </div>
         <div class="col-md">
            <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Business Hours</h2>
+            <h2 class="ftco-heading-2">Useful Links</h2>
             <div class="opening-hours">
-                <h4>Opening Days:</h4>
-                <p class="pl-3">
-                    <span>Monday – Friday : 9am to 20 pm</span>
-                    <span>Saturday : 9am to 17 pm</span>
-                </p>
-                <h4>Vacations:</h4>
-                <p class="pl-3">
-                    <span>All Sunday Days</span>
-                    <span>All Official Holidays</span>
-                </p>
+              <a href="http://kenyalaw.org/kl/" target="_blank">Kenya Law</a><br>
+              <a href="https://www.lsk.or.ke" target="_blank">Law Society Of Kenya</a><br>
+              <a href="https://www.judiciary.go.ke" target="_blank">Judiciary</a><br>
+              <a href="https://ealawsociety.org" target="_blank">East Africa Law</a><br>
             </div>
           </div>
         </div>
@@ -735,7 +528,7 @@
                       Nairobi, Kenya
                     </span></li>
                   <li><a href="#"><span class="icon icon-phone"></span><span class="text">+254733 84 48 38/+254722 47 47 39</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">www.sigomac.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@sigomac.com</span></a></li>
                 </ul>
               </div>
           </div>
@@ -744,9 +537,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
 
-          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <p>Made with <i class="icon-heart color-danger" style="color:red" aria-hidden="true"></i> by Samuel Mwangi</p>
         </div>
       </div>
     </div>
