@@ -537,7 +537,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
 
-          <p>Made with <i class="icon-heart color-danger" style="color:red" aria-hidden="true"></i> by Cliffcom Softwares 07801119767/0704922042</p>
+          <p>Made with <i class="icon-heart color-danger" style="color:red" aria-hidden="true"></i> by Cliffcom Softwares 0780119767/0704922042</p>
         </div>
       </div>
     </div>
