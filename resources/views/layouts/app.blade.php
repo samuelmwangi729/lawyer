@@ -10,7 +10,6 @@
     <title>SIGOMAC| ADVOCATES| LAW| LEGAL</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
     
@@ -35,7 +34,7 @@
     <div id="app">
         <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container-fluid px-md-5">
-            <a class="navbar-brand" href="index.html"><img src="{{asset('images/logo.png')}}"></a>
+            <a class="navbar-brand" href="/"><img src="{{asset('images/logo.png')}}"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color:white">
                 <span class="oi oi-menu"></span>
               </button>
