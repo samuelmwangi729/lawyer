@@ -21,3 +21,17 @@ Route::get('/register',function(){
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/Contacts',[
+        'uses'=>'ContactController@index',
+        'as'=>'contact.index'
+    ]);
+    Route::post('/Contacts/Store',[
+        'uses'=>'ContactController@store',
+        'as'=>'contact.store'
+    ]);
+    Route::get('/Practice/Areas',[
+        'uses'=>'PracticeController@index',
+        'as'=>'practice.index'
+    ]);
+});
